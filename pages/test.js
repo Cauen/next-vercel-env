@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Home(props) {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>Test</h1>
       {JSON.stringify({ props })}
       <br /><Link href="/">Home</Link>
       <br /><Link href="/test">Test</Link>

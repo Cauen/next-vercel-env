@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "env-cmd -e dev next dev",
+    "build": "env-cmd -e build next build",
+    "start": "env-cmd -e start next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "env-cmd": "^10.1.0",
     "next": "11.1.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
