@@ -9,6 +9,7 @@ export default function Home(props) {
       {JSON.stringify({ props })}
       <br /><Link href="/">Home</Link>
       <br /><Link href="/test">Test</Link>
+      <p>Conclusion: Vercel can read environtment variables at build if setten before "build" command, but it will be lost at deployment</p>
     </div>
   )
 }
