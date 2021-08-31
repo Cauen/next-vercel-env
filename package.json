@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "env-cmd -e dev next dev",
     "build": "env-cmd -e build next build",
+    "postbuild": "env-cmd -e start next build",
     "start": "env-cmd -e start next start",
     "lint": "next lint"
   },
